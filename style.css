@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    background-color: #f0e4d7;
+}
+
+h1 {
+    color: #40394a;
+    font-size: 30px;
+    font-family: 'arial';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color:#40394a;
+    margin: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #e48257;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #642d15;
+}
+
+h2 {
+    font-weight: bold;
+    color: #40394a;
+}
+
+div {
+    background-color: white;
+    padding: 24px;
+    margin: 16px;
+}
+
+.card-white {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 600px;
+    margin: 24px auto ;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.img-circle {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #e48257;
+    margin: 8px 24px;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0,1);
+}
+
+.btn-blue:hoover {
+    background-color: #bd501d;
+    color: white;
+}
+
+.list-in-line {
+    list-style: none;
+    padding: 0;
+}
+
+.list-in-line li {
+    display: inline-block;
+}
+
+.social-icon {
+    font-size: 32px;
+    color: white;
+    margin: 8px 8px;
+    background-color: rgb(220, 220, 220);
+    padding: 5px 20px;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0,1);
+}
+
+
+.social-icon:hover {
+    color: #bd501d;
+}
+
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .card-white {
+      width: 600px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .card-white {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .card-white {
+      width: 300px;
+    }
+  }
